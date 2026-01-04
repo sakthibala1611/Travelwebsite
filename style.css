@@ -101,7 +101,7 @@ div{
 ========================= */
 p{
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -114,6 +114,7 @@ img{
     display: block;
     margin: 15px auto;
     border-radius: 12px;
+    margin-top: 40px;
 }
 /* =========================
    FIGURE
