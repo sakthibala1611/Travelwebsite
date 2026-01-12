@@ -23,15 +23,15 @@
 <h1>Contact Us Form </h1>
 
 <div class="signuppage">
-    <form>
+    <form id="contanctus">
         <label for="Name">Name</label>
         <input type="text" id="Name" Name="Name" >
          
         <label for="Pickup location">Pickup location</label>
-        <input type="text" id="Pickup location" Name="Pickup location">
+        <input type="text" id="Pickuplocation" Name="Pickup location">
 
         <label for="Drop location">Drop location</label>
-        <input type="text" id="Drop location" Name="Drop location">
+        <input type="text" id="Droplocation" Name="Drop location">
 
 
         <label for="Email">Email</label>
@@ -41,7 +41,7 @@
         <input type="password" id="Password" Name="Password">-->
 
          <label for="Journey Date">Journey Date</label>
-        <input type="date" id="Journey Date" Name="Journey Date">
+        <input type="date" id="JourneyDate" Name="Journey Date">
  
         <label for="gender">Gender:</label>
         <select id="gender" name="gender">
@@ -52,15 +52,14 @@
         </select>
 
         <label for="phone Number">Phone Number</label>
-        <input type="tel" id="Phone Number" name="Phone Number" pattern="[6-9]{1}[0-9]{9}" maxlength="10" required>
+        <input type="tel" id="PhoneNumber" name="PhoneNumber" pattern="[6-9]{1}[0-9]{9}" maxlength="10" required>
 
 
 
         <label>Message</label>
         <textarea></textarea>
 
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
+        <button type="submit" id="submit">submit</button>
     </form>
 </div>
 
@@ -96,6 +95,6 @@
         <p>© 2025 Ramanathapuram Tourism | All Rights Reserved</p>
     </div>
 </footer>
-
+<script src="index.js"></script>
 </body>
 </html>

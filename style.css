@@ -169,18 +169,19 @@ select:focus{
     outline: none;
     border-color: #0d6efd;
 }
-
-input[type="submit"],
-input[type="reset"]{
+#submit{
     background-color: #0d6efd;
     color: white;
     border: none;
     cursor: pointer;
     font-weight: bold;
+    padding: 10px;
+    margin: 15px auto;
+    width: 30%;
+    display: block;
 }
-
-input[type="submit"]:hover,
-input[type="reset"]:hover{
+#submit:hover
+{
     background-color: #084298;
 }
 
